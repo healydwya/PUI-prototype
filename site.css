@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+}
+
+/* styling for header bar and internal menu rows */
+.header-bar {
+    background: #02601e;
+    width: 100vw;
+    padding: 10px;
+    color: white;
+}
+
+.header-bar .logo-img {
+    width: 120px;
+    height: 120px;
+}
+
+.header-bar .top-bar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bar .bottom-bar {
+    display: flex;
+    padding: 0 20px;
+}
+
+.header-bar .bottom-bar .mini-menu {
+    padding: 0 60px;
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+}
+
+.down-arrow {
+    width: 30px;
+    padding: 10px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+}
+
+.col.center img.search-icon {
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+}
+
+.col.left {
+    padding-left: 60px;
+}
+
+.col.right {
+    padding-right: 60px;
+}
+
+.pack-img {
+    width: 70px;
+    padding: 10px;
+}
+
+.account-img {
+    width: 70px;
+    padding: 10px;
+}
+
+.col input {
+    height: 60px;
+    width: 40vw;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 500;
+    width: 150px;
+    padding: 0 20px;
+    font-size: 40px;
+}
+
+.page-body {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.cover-img {
+    width: 80vw;
+}
+
+.home-button {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    border: 1px solid #02601e;
+    background: #02601e;
+    color: white;
+    padding: 20px;
+    width: 220px;
+    font-family: Tahoma, sans-serif;
+}
+
+.home-button span {
+    font-size: 32px;
+}
