@@ -21,6 +21,11 @@ body, html {
     justify-content: space-between;
 }
 
+.top-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .header-bar .bottom-bar {
     display: flex;
     padding: 0 20px;
@@ -31,6 +36,11 @@ body, html {
     font-size: 24px;
     font-family: Tahoma, sans-serif;
     display: flex;
+}
+
+a.mini-menu {
+    text-decoration: none;
+    color: #fff;
 }
 
 .down-arrow {
@@ -70,6 +80,7 @@ body, html {
 .col input {
     height: 60px;
     width: 40vw;
+    padding-left: 60px;
 }
 
 h1 {
@@ -80,7 +91,7 @@ h1 {
     font-size: 40px;
 }
 
-.page-body {
+.page-body.home{
     display: flex;
     justify-content: center;
     padding: 60px;
@@ -100,8 +111,159 @@ h1 {
     padding: 20px;
     width: 220px;
     font-family: Tahoma, sans-serif;
+    cursor: pointer;
 }
 
 .home-button span {
     font-size: 32px;
+}
+
+.active-menu {
+    color: #acdfa4;
+}
+
+a.active-menu {
+    text-decoration: none;
+}
+
+/* Styling for Blue Ridge Page */
+/* Step Through to show users status of where they are on site */ 
+.steps {
+    display: flex;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color: #2D413B;
+}
+
+.steps span {
+    padding: 4px;
+}
+
+.steps span a {
+    text-decoration: none;
+    color: #2D413B;
+}
+
+.page-body.blue-ridge {
+    
+}
+
+.photo-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.photo-grid .row {
+    display: flex;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 60px;
+}
+
+.grid-item span {
+    font-family: tahoma, sans-serif;
+    color: #02601e;
+    padding: 10px 0;
+}
+
+.grid-item img {
+    width: 250px;
+    height: 250px;
+}
+
+a.grid-item {
+    text-decoration: none;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+}
+
+.product-details .img-car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 40px;
+}
+
+.product-details .product-photo img {
+    width: 500px;
+    height: 500px;
+}
+
+.product-details .details {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 20px;
+}
+
+.img-car .up-arrow {
+    width: 58px;
+}
+
+.img-car .down-arrow {
+    width: 58px;
+}
+
+.img-car .car-photo {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.product-details h2 {
+    font-family: tahoma, sans-serif;
+    color: #02601e;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.product-details .details span {
+    font-family: tahoma, sans-serif;
+    color: #02601e;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.row.ratings span{
+    color: #D3C43A;
+    margin: 20px;
+}
+
+.product-details .row {
+    margin: 20px 0;
+    display: flex;
+}
+
+.product-details .row.ratings {
+    align-items: center;
+}
+
+.product-details .row.cart {
+    align-items: center;
+}
+
+.product-details .row.size {
+    align-items: baseline;
+}
+
+.product-details .row.size span {
+    color: gray;
+    padding: 0 20px;
+}
+
+.product-details .row.cart span {
+    font-size: 40px;
+    padding: 0 20px;
 }
