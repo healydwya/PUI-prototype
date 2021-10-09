@@ -91,6 +91,8 @@ h1 {
     font-size: 40px;
 }
 
+/* homepage body styling */
+
 .page-body.home{
     display: flex;
     justify-content: center;
@@ -145,9 +147,7 @@ a.active-menu {
     color: #2D413B;
 }
 
-.page-body.blue-ridge {
-    
-}
+/* styling for a grid of photos to be reused throughout site */
 
 .photo-grid {
     display: flex;
@@ -182,6 +182,8 @@ a.active-menu {
 a.grid-item {
     text-decoration: none;
 }
+
+/* Product Detail Page CSS */
 
 .product-details {
     display: flex;
