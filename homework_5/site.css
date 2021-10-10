@@ -257,7 +257,11 @@ a.grid-item {
 }
 
 .product-details .row.size {
-    align-items: baseline;
+    align-items: center;
+}
+
+.row.size img:first-child {
+    margin-right: 20px;
 }
 
 .product-details .row.size span {
