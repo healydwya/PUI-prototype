@@ -1,0 +1,34 @@
+@import 'styles';
+
+/* styling for a grid of photos to be reused throughout site */
+
+.photo-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .row {
+        display: flex;
+    }
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 60px;
+    span {
+        font-family: tahoma, sans-serif;
+        color: #02601e;
+        padding: 10px 0;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+a.grid-item {
+    text-decoration: none;
+}

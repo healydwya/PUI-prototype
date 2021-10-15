@@ -1,0 +1,14 @@
+.steps {
+    display: flex;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color: #2D413B;
+    span {
+        padding: 4px;
+        a {
+            text-decoration: none;
+            color: #2D413B;
+        }
+    }
+}
