@@ -1,0 +1,17 @@
+@import 'styles';
+
+.img-car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 40px;
+    .up-arrow, .down-arrow {
+        width: 58px;
+    }
+    .car-photo {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+}

@@ -3,21 +3,6 @@
 .product-details {
     display: flex;
     align-items: center;
-    .img-car {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        margin: 20px 40px;
-        .up-arrow, .down-arrow {
-            width: 58px;
-        }
-        .car-photo {
-            width: 150px;
-            height: 150px;
-            padding: 10px;
-        }
-    }
     .product-photo img {
         width: 500px;
         height: 500px;
@@ -41,7 +26,7 @@
         font-size: 40px;
         font-weight: 500;
     }
-    
+
     .row {
         margin: 20px 0;
         display: flex;
@@ -67,6 +52,110 @@
             }
             img:first-child {
                 margin-right: 20px;
+            }
+            select {
+                margin-left: 10px;
+                height: 60px;
+                width: 150px;
+                padding: 4px;
+                background-color: #EBEBEB;
+                border: none;
+                color: #000;
+                font-size: 28px;
+            }
+            .color-selects {
+                display: flex;
+                input {
+                    margin: 10px;
+                }
+                .red {
+                    input[type='radio']:after {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 15px;
+                        top: -2px;
+                        left: -4px;
+                        position: relative;
+                        background-color: #FF3A20;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid white;
+                    }
+                
+                    input[type='radio']:checked:after {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 15px;
+                        top: -2px;
+                        left: -4px;
+                        position: relative;
+                        opacity: 1;
+                        background-color: #FF3A20;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid black;
+                    }
+                }
+                .green {
+                    input[type='radio']:after {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 15px;
+                        top: -2px;
+                        left: -4px;
+                        position: relative;
+                        background-color: #656956;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid white;
+                    }
+                
+                    input[type='radio']:checked:after {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 15px;
+                        top: -2px;
+                        left: -4px;
+                        position: relative;
+                        background-color: #656956;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid black;
+                    }
+                }
+                .blue {
+                    input[type='radio']:after {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 20px;
+                        top: -2px;
+                        left: -4px;
+                        position: relative;
+                        background-color: #4E7197;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid white;
+                    }
+                
+                    input[type='radio']:checked:after {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 20px;
+                        top: -2px;
+                        left: -4px;
+                        position: relative;
+                        background-color: #4E7197;
+                        content: '';
+                        display: inline-block;
+                        visibility: visible;
+                        border: 2px solid black;
+                    }
+                }
             }
         }
     }

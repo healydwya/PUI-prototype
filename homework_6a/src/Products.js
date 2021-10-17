@@ -1,4 +1,10 @@
 import './Products.scss';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 function Products() {
     return (
@@ -10,30 +16,30 @@ function Products() {
                 </div>
                 <div className="photo-grid">
                     <div className="row">
-                        <a href="product-details.html" className="grid-item">
-                            <img src="Assets/lifejacket1.jpeg"></img>
+                        <Link to="/details" className="grid-item">
+                            <img alt="dog in lifejacket" src="Assets/lifejacket1.jpeg"></img>
                             <span> Safety Equipment </span>
-                        </a>
+                        </Link>
                         <div className="grid-item">
-                            <img src="Assets/treats.jpeg"></img>
+                            <img alt="treats and chews" src="Assets/treats.jpeg"></img>
                             <span> Treats and Chews </span>
                         </div>
                         <div className="grid-item">
-                            <img src="Assets/bandana.jpeg"></img>
+                            <img alt="dog in bandana" src="Assets/bandana.jpeg"></img>
                             <span> Bandanas and Collars </span>
                         </div>
                     </div>
                     <div className="row">
                         <div className="grid-item">
-                            <img src="Assets/harness.jpeg"></img>
+                            <img alt="dogs in harnesses" src="Assets/harness.jpeg"></img>
                             <span> Harnesses and Packs </span>
                         </div>
                         <div className="grid-item">
-                            <img src="Assets/ev_hike.JPG"></img>
+                            <img alt="man hiking with dog" src="Assets/ev_hike.JPG"></img>
                             <span> Leashes &amp; Tethers </span>
                         </div>
                         <div className="grid-item">
-                            <img src="Assets/camping.JPG"></img>
+                            <img alt="camping dog" src="Assets/camping.JPG"></img>
                             <span> Pet Camping Gear </span>
                         </div>
                     </div>
