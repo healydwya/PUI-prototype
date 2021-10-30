@@ -1,0 +1,25 @@
+@import 'styles';
+
+.page-body.home{
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  .cover-img {
+    width: 80vw;
+  }
+  .home-button {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    border: 1px solid #02601e;
+    background: #02601e;
+    color: white;
+    padding: 20px;
+    width: 220px;
+    font-family: Tahoma, sans-serif;
+    cursor: pointer;
+    span {
+      font-size: 32px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import 'styles';
+
+.cart-details {
+    display: flex;
+    margin: 60px;
+    align-items: flex-start;
+    .cards {
+
+    }
+    .checkout {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .subtotal {
+            padding: 20px;
+            background-color: #8BB79C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #0D4423;
+            font-size: 28px;
+            width: 164px;
+            margin: 0 20px;
+        }
+        .checkout-button {
+            background-color: #467E5C;
+            color: #fff;
+            font-size: 28px;
+            width: 164px;
+            padding: 20px;
+            text-align: center;
+            margin: 0 20px;
+            margin-top: 46px;
+        }
+    }
+}
